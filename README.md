@@ -6,4 +6,4 @@ This repository includes 4 instances of the same project:
 - MonolithicCocoapods (Includes the complete monolithic project with cocoapods as a dependency manager)
 - MonolithicSPM (Includes the complete monolithic project with SPM as a dependency manager)
 
-This is an opec source repository intended for learning iOS app modularization. Feel free to contribute :)!
+This is an open-source project intended for learning iOS app modularization. Feel free to contribute :)!
