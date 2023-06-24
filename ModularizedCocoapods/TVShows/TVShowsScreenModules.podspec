@@ -2,8 +2,8 @@ Pod::Spec.new do |spec|
   spec.name         = "TVShowsScreenModules"
   spec.version      = "0.0.1"
   spec.summary      = "TVShowsScreenModules contains all screens"
-  spec.homepage     = "URL to the homepage"
-  spec.source       = { :git => "URL to the remote git repository", :tag => "#{spec.version}" }
+  spec.homepage     = "https://github.com/terzicluka/iOS-App-Modularization"
+  spec.source       = { :git => "https://github.com/terzicluka/iOS-App-Modularization", :tag => "#{spec.version}" }
   spec.license      = "MIT"
   spec.authors      = { "Luka Terzić"   => "luka.terzic@infinum.com" }
   spec.platform     = :ios, "16.0"

@@ -2,9 +2,9 @@
   "name": "TVShowsScreenModules",
   "version": "0.0.1",
   "summary": "TVShowsScreenModules contains all screens",
-  "homepage": "URL to the homepage",
+  "homepage": "https://github.com/terzicluka/iOS-App-Modularization",
   "source": {
-    "git": "URL to the remote git repository",
+    "git": "https://github.com/terzicluka/iOS-App-Modularization",
     "tag": "0.0.1"
   },
   "license": "MIT",
