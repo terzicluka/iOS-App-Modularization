@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2184A72A4702260049A000 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5C2184A62A4702260049A000 /* RxCocoa */; };
+		5C2184A92A4702260049A000 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C2184A82A4702260049A000 /* RxSwift */; };
+		5C5391452A447CBB008B1E60 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5C5391442A447CBB008B1E60 /* Alamofire */; };
+		5C5391482A447D0F008B1E60 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5C5391472A447D0F008B1E60 /* Kingfisher */; };
+		5C53914B2A447D70008B1E60 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5C53914A2A447D70008B1E60 /* MBProgressHUD */; };
+		5C93E94A2A46DE3C009D4E18 /* TVShowsScreenModules in Frameworks */ = {isa = PBXBuildFile; productRef = 5C93E9492A46DE3C009D4E18 /* TVShowsScreenModules */; };
+		5C93E94D2A46DED2009D4E18 /* TVShowsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5C93E94C2A46DED2009D4E18 /* TVShowsCore */; };
+		5CFEFA3A2A4712080080EF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CFEFA392A4712080080EF02 /* Assets.xcassets */; };
+		78C5985A28F56FB2007EEDA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5985928F56FB2007EEDA1 /* AppDelegate.swift */; };
+		78C5986628F56FB3007EEDA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C5986428F56FB3007EEDA1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C86851D2A448F00007A450B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C93E9482A46DDF3009D4E18 /* TVShowsScreenModules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TVShowsScreenModules; path = Packages/TVShowsScreenModules; sourceTree = "<group>"; };
+		5C93E94E2A46E5D9009D4E18 /* TVShowsCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TVShowsCore; path = Packages/TVShowsCore; sourceTree = "<group>"; };
+		5CFEFA392A4712080080EF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78C5985628F56FB2007EEDA1 /* TVShows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVShows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C5985928F56FB2007EEDA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78C5986528F56FB3007EEDA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78C5986728F56FB3007EEDA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C5985328F56FB2007EEDA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2184A72A4702260049A000 /* RxCocoa in Frameworks */,
+				5C53914B2A447D70008B1E60 /* MBProgressHUD in Frameworks */,
+				5C93E94A2A46DE3C009D4E18 /* TVShowsScreenModules in Frameworks */,
+				5C5391482A447D0F008B1E60 /* Kingfisher in Frameworks */,
+				5C93E94D2A46DED2009D4E18 /* TVShowsCore in Frameworks */,
+				5C5391452A447CBB008B1E60 /* Alamofire in Frameworks */,
+				5C2184A92A4702260049A000 /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0D378EF734EFD2126E6F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C93E9462A46DD85009D4E18 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5C93E9482A46DDF3009D4E18 /* TVShowsScreenModules */,
+				5C93E94E2A46E5D9009D4E18 /* TVShowsCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		5CFEFA382A4712080080EF02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CFEFA392A4712080080EF02 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		788D61AC28F57B58009A4FAE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				78C5986428F56FB3007EEDA1 /* LaunchScreen.storyboard */,
+				78C5985928F56FB2007EEDA1 /* AppDelegate.swift */,
+				78C5986728F56FB3007EEDA1 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		78C5984D28F56FB2007EEDA1 = {
+			isa = PBXGroup;
+			children = (
+				5C93E9462A46DD85009D4E18 /* Packages */,
+				78C5985828F56FB2007EEDA1 /* TVShows */,
+				78C5985728F56FB2007EEDA1 /* Products */,
+				1B0D378EF734EFD2126E6F6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78C5985728F56FB2007EEDA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C5985628F56FB2007EEDA1 /* TVShows.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C5985828F56FB2007EEDA1 /* TVShows */ = {
+			isa = PBXGroup;
+			children = (
+				5CFEFA382A4712080080EF02 /* Resources */,
+				788D61AC28F57B58009A4FAE /* Application */,
+			);
+			path = TVShows;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C5985528F56FB2007EEDA1 /* TVShows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C5986A28F56FB3007EEDA1 /* Build configuration list for PBXNativeTarget "TVShows" */;
+			buildPhases = (
+				78C5985228F56FB2007EEDA1 /* Sources */,
+				78C5985328F56FB2007EEDA1 /* Frameworks */,
+				78C5985428F56FB2007EEDA1 /* Resources */,
+				788D61AB28F579A7009A4FAE /* ShellScript */,
+				5C86851D2A448F00007A450B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVShows;
+			packageProductDependencies = (
+				5C5391442A447CBB008B1E60 /* Alamofire */,
+				5C5391472A447D0F008B1E60 /* Kingfisher */,
+				5C53914A2A447D70008B1E60 /* MBProgressHUD */,
+				5C93E9492A46DE3C009D4E18 /* TVShowsScreenModules */,
+				5C93E94C2A46DED2009D4E18 /* TVShowsCore */,
+				5C2184A62A4702260049A000 /* RxCocoa */,
+				5C2184A82A4702260049A000 /* RxSwift */,
+			);
+			productName = TVShows;
+			productReference = 78C5985628F56FB2007EEDA1 /* TVShows.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C5984E28F56FB2007EEDA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = Infinum;
+				TargetAttributes = {
+					78C5985528F56FB2007EEDA1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = 78C5985128F56FB2007EEDA1 /* Build configuration list for PBXProject "TVShows" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C5984D28F56FB2007EEDA1;
+			packageReferences = (
+				5C5391432A447CBB008B1E60 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				5C5391462A447D0F008B1E60 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				5C5391492A447D70008B1E60 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+				5C2184A52A4702260049A000 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = 78C5985728F56FB2007EEDA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C5985528F56FB2007EEDA1 /* TVShows */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C5985428F56FB2007EEDA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFEFA3A2A4712080080EF02 /* Assets.xcassets in Resources */,
+				78C5986628F56FB3007EEDA1 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		788D61AB28F579A7009A4FAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C5985228F56FB2007EEDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C5985A28F56FB2007EEDA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78C5986428F56FB3007EEDA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C5986528F56FB3007EEDA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C5986828F56FB3007EEDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78C5986928F56FB3007EEDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C5986B28F56FB3007EEDA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TVShows/Application/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TVShows;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinum.TVShows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C5986C28F56FB3007EEDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TVShows/Application/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TVShows;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinum.TVShows;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C5985128F56FB2007EEDA1 /* Build configuration list for PBXProject "TVShows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C5986828F56FB3007EEDA1 /* Debug */,
+				78C5986928F56FB3007EEDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C5986A28F56FB3007EEDA1 /* Build configuration list for PBXNativeTarget "TVShows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C5986B28F56FB3007EEDA1 /* Debug */,
+				78C5986C28F56FB3007EEDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C2184A52A4702260049A000 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		5C5391432A447CBB008B1E60 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		5C5391462A447D0F008B1E60 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		5C5391492A447D70008B1E60 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C2184A62A4702260049A000 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C2184A52A4702260049A000 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		5C2184A82A4702260049A000 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C2184A52A4702260049A000 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		5C5391442A447CBB008B1E60 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C5391432A447CBB008B1E60 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		5C5391472A447D0F008B1E60 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C5391462A447D0F008B1E60 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		5C53914A2A447D70008B1E60 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C5391492A447D70008B1E60 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		5C93E9492A46DE3C009D4E18 /* TVShowsScreenModules */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TVShowsScreenModules;
+		};
+		5C93E94C2A46DED2009D4E18 /* TVShowsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TVShowsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 78C5984E28F56FB2007EEDA1 /* Project object */;
+}

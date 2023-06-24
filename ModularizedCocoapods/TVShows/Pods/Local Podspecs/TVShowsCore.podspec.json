@@ -1,0 +1,96 @@
+{
+  "name": "TVShowsCore",
+  "version": "0.0.1",
+  "summary": "TVShowsCore module contains all the code that is reused by components and screens",
+  "homepage": "URL to the homepage",
+  "source": {
+    "git": "URL to the remote git repository",
+    "tag": "0.0.1"
+  },
+  "license": "MIT",
+  "authors": {
+    "Luka Terzić": "luka.terzic@infinum.com"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "TVShowsTests/Extensions/**/*"
+    }
+  ],
+  "subspecs": [
+    {
+      "name": "Resources",
+      "source_files": "TVShows/Common/Extensions/UIImageExtension.swift"
+    },
+    {
+      "name": "Utils",
+      "dependencies": {
+        "RxSwift": [
+
+        ],
+        "RxCocoa": [
+
+        ],
+        "Alamofire": [
+
+        ],
+        "Kingfisher": [
+
+        ]
+      },
+      "source_files": [
+        "TVShows/Common/Extensions/UIImageViewExtension.swift",
+        "TVShows/Common/Extensions/UIButtonExtension.swift",
+        "TVShows/Common/Extensions/UIScrollView+BottomDetection.swift",
+        "TVShows/Common/Extensions/UITextViewExtension.swift",
+        "TVShows/Common/Extensions/UIViewExtension.swift",
+        "TVShows/Common/Extensions/Refreshable.swift",
+        "TVShows/Common/Progressable/**/*.swift",
+        "TVShows/Common/TableView/**/*.swift",
+        "TVShows/Common/VIPER/UIStoryboardExtension.swift",
+        "TVShows/Common/Extensions/Result+Map.swift",
+        "TVShows/Common/Extensions/String+Blank.swift",
+        "TVShows/Common/Extensions/Driver+Utility.swift",
+        "TVShows/Common/Extensions/Observable+Utility.swift",
+        "TVShows/Common/Extensions/Result+Rx.swift",
+        "TVShows/Common/Paging/**/*.swift"
+      ]
+    },
+    {
+      "name": "Data",
+      "dependencies": {
+        "TVShowsCore/Utils": [
+
+        ]
+      },
+      "source_files": [
+        "TVShows/Common/Model/APIError.swift",
+        "TVShows/Common/Model/AuthInfo.swift",
+        "TVShows/Common/Model/ValidationError.swift",
+        "TVShows/Common/Networking/**/*.swift",
+        "TVShows/Common/Validation/**/*.swift",
+        "TVShows/Application/Constants.swift"
+      ]
+    },
+    {
+      "name": "VIPER",
+      "dependencies": {
+        "RxSwift": [
+
+        ],
+        "RxCocoa": [
+
+        ],
+        "MBProgressHUD": [
+
+        ]
+      },
+      "source_files": "TVShows/Common/VIPER/**/*.swift",
+      "exclude_files": "TVShows/Common/VIPER/UIStoryboardExtension.swift"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+---
+:language: swift
+:bundles:
+- :name: main
+  :reference: ".main"
+  :assetsSearchPath: "**/*.xcassets"
+  :outputSourcePathImages: "TVShows/Common/Extensions/UIImageExtension.swift"
+:app_name: TVShows

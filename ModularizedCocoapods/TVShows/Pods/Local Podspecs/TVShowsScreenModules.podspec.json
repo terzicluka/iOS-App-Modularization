@@ -1,0 +1,61 @@
+{
+  "name": "TVShowsScreenModules",
+  "version": "0.0.1",
+  "summary": "TVShowsScreenModules contains all screens",
+  "homepage": "URL to the homepage",
+  "source": {
+    "git": "URL to the remote git repository",
+    "tag": "0.0.1"
+  },
+  "license": "MIT",
+  "authors": {
+    "Luka Terzić": "luka.terzic@infinum.com"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "TVShowsTests/Modules/**/*"
+    }
+  ],
+  "subspecs": [
+    {
+      "name": "Common",
+      "dependencies": {
+        "TVShowsCore": [
+
+        ]
+      }
+    },
+    {
+      "name": "Login",
+      "dependencies": {
+        "TVShowsScreenModules/Common": [
+
+        ]
+      },
+      "source_files": [
+        "TVShows/Modules/Login/**/*.swift",
+        "TVShows/Common/Model/User.swift",
+        "TVShows/Common/Model/MetaData.swift"
+      ],
+      "resources": "TVShows/Modules/Login/**/*.{xib,storyboard}"
+    },
+    {
+      "name": "Home",
+      "dependencies": {
+        "TVShowsScreenModules/Common": [
+
+        ]
+      },
+      "source_files": [
+        "TVShows/Modules/Home/**/*.swift",
+        "TVShows/Common/Model/Show.swift"
+      ],
+      "resources": "TVShows/Modules/Home/**/*.{xib,storyboard}"
+    }
+  ]
+}

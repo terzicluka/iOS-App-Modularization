@@ -1,0 +1,43 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '16.0'
+use_frameworks!
+
+def ui
+  pod 'MBProgressHUD', '~> 1.2.0'
+end
+
+def reactive
+  pod 'RxSwift', '~> 6.5'
+  pod 'RxCocoa', '~> 6.5'
+end
+
+def networking
+  pod 'Kingfisher', '~> 7.4'
+  pod 'Alamofire', '~> 5.6'
+end
+
+def local
+  pod 'TVShowsCore', :path => './', :testspecs => ['Tests']
+  pod 'TVShowsScreenModules', :path => './', :testspecs => ['Tests']
+end
+
+def shared
+  ui
+  reactive
+  networking
+  local
+end
+
+target 'TVShows' do
+  shared
+end
+
+post_install do |installer|
+    installer.generated_projects.each do |project|
+          project.targets.each do |target|
+              target.build_configurations.each do |config|
+                  config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '16.0'
+               end
+          end
+   end
+end

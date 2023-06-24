@@ -1,0 +1,79 @@
+PODS:
+  - Alamofire (5.7.1)
+  - Kingfisher (7.8.1)
+  - MBProgressHUD (1.2.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - TVShowsCore (0.0.1):
+    - TVShowsCore/Data (= 0.0.1)
+    - TVShowsCore/Resources (= 0.0.1)
+    - TVShowsCore/Utils (= 0.0.1)
+    - TVShowsCore/VIPER (= 0.0.1)
+  - TVShowsCore/Data (0.0.1):
+    - TVShowsCore/Utils
+  - TVShowsCore/Resources (0.0.1)
+  - TVShowsCore/Tests (0.0.1)
+  - TVShowsCore/Utils (0.0.1):
+    - Alamofire
+    - Kingfisher
+    - RxCocoa
+    - RxSwift
+  - TVShowsCore/VIPER (0.0.1):
+    - MBProgressHUD
+    - RxCocoa
+    - RxSwift
+  - TVShowsScreenModules (0.0.1):
+    - TVShowsScreenModules/Common (= 0.0.1)
+    - TVShowsScreenModules/Home (= 0.0.1)
+    - TVShowsScreenModules/Login (= 0.0.1)
+  - TVShowsScreenModules/Common (0.0.1):
+    - TVShowsCore
+  - TVShowsScreenModules/Home (0.0.1):
+    - TVShowsScreenModules/Common
+  - TVShowsScreenModules/Login (0.0.1):
+    - TVShowsScreenModules/Common
+  - TVShowsScreenModules/Tests (0.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.6)
+  - Kingfisher (~> 7.4)
+  - MBProgressHUD (~> 1.2.0)
+  - RxCocoa (~> 6.5)
+  - RxSwift (~> 6.5)
+  - TVShowsCore (from `./`)
+  - TVShowsCore/Tests (from `./`)
+  - TVShowsScreenModules (from `./`)
+  - TVShowsScreenModules/Tests (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - MBProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  TVShowsCore:
+    :path: "./"
+  TVShowsScreenModules:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Kingfisher: 63f677311d36a3473f6b978584f8a3845d023dc5
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  TVShowsCore: b489e6ddb2a283782fd49e751768c7d1d152bd1a
+  TVShowsScreenModules: a74a315a7e305192cfabe67c88188bd6c499d845
+
+PODFILE CHECKSUM: 74b8c367971107215bc08b30088176a7add43fb2
+
+COCOAPODS: 1.11.3

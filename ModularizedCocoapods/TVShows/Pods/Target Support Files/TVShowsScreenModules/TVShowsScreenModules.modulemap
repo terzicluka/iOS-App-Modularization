@@ -1,0 +1,6 @@
+framework module TVShowsScreenModules {
+  umbrella header "TVShowsScreenModules-umbrella.h"
+
+  export *
+  module * { export * }
+}
