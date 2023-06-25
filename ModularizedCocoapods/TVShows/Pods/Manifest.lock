@@ -10,12 +10,10 @@ PODS:
   - RxSwift (6.5.0)
   - TVShowsCore (0.0.1):
     - TVShowsCore/Data (= 0.0.1)
-    - TVShowsCore/Resources (= 0.0.1)
     - TVShowsCore/Utils (= 0.0.1)
     - TVShowsCore/VIPER (= 0.0.1)
   - TVShowsCore/Data (0.0.1):
     - TVShowsCore/Utils
-  - TVShowsCore/Resources (0.0.1)
   - TVShowsCore/Tests (0.0.1)
   - TVShowsCore/Utils (0.0.1):
     - Alamofire
@@ -71,7 +69,7 @@ SPEC CHECKSUMS:
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
-  TVShowsCore: b79c08b3efe7e27e1cc545ee341544f4f0157219
+  TVShowsCore: 9c64c1412a7b3a167204afa3609105c5439e0655
   TVShowsScreenModules: 3d9637bbcb6885bd596e9a6393784f5512698f45
 
 PODFILE CHECKSUM: 74b8c367971107215bc08b30088176a7add43fb2

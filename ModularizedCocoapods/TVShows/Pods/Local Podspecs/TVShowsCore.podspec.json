@@ -23,10 +23,6 @@
   ],
   "subspecs": [
     {
-      "name": "Resources",
-      "source_files": "TVShows/Common/Extensions/UIImageExtension.swift"
-    },
-    {
       "name": "Utils",
       "dependencies": {
         "RxSwift": [

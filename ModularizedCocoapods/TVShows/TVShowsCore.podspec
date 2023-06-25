@@ -8,11 +8,6 @@ Pod::Spec.new do |spec|
   spec.authors      = { "Luka Terzić" => "luka.terzic@infinum.com" }
   spec.platform     = :ios, "16.0"
 
-  spec.subspec 'Resources' do |resources|
-    resources.source_files =
-                             "TVShows/Common/Extensions/UIImageExtension.swift"
-  end
-
   spec.subspec 'Utils' do |utils|
     utils.dependency "RxSwift"
     utils.dependency "RxCocoa"
